@@ -1,0 +1,39 @@
+1. Is Java Platform Independent? If so, how?
+   - Answer: Yes, Java is platform independent. Here's why:
+     - Java code is compiled into bytecode (`.class` files) by the `javac` compiler.
+     - Bytecode is independent of the underlying hardware or software.
+     - The Java Virtual Machine (JVM) interprets this bytecode, making it executable on any system with a compatible JVM.
+     - Thus, Java achieves platform independence.
+
+2.  What Are the Top Features of Java? 
+   -  Answer :
+     -  Simple : Java has an easy-to-understand syntax.
+     -  Platform Independent : Write once, run anywhere.
+     -  Interpreted and Compiled : Combines both approaches.
+     -  Robust : Features like garbage collection enhance reliability.
+     -  Object-Oriented : Supports classes, objects, and inheritance.
+     -  Secured : Applications can be shared without revealing the source code.
+     -  High Performance : Faster than traditional interpreted languages.
+     -  Dynamic : Supports dynamic class loading.
+     -  Distributed : Enables remote method invocation.
+     -  Multithreaded : Handles multiple tasks concurrently.
+     -  Architecture Neutral : Not tied to any specific architecture.
+
+3.  What Is the JVM (Java Virtual Machine)? 
+   -  Answer :
+     - JVM stands for Java Virtual Machine.
+     - It interprets and executes Java bytecode.
+     - Responsible for loading classes, verifying them, and managing memory.
+     - Ensures platform independence by providing a consistent runtime environment.
+
+4.  Explain the Difference Between `==` and `.equals()` in Java. 
+   -  Answer :
+     - `==` compares object references (memory addresses).
+     - `.equals()` compares the content (values) of objects.
+     - For strings, `.equals()` compares their character sequences.
+
+5.  What Is the Role of the `main()` Method in Java? 
+   -  Answer :
+     - `main()` is the entry point for Java applications.
+     - It's the first method called when a program runs.
+     - Syntax: `public static void main(String[] args) { ... }`
